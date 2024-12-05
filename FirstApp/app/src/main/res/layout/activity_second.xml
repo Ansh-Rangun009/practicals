@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:background="@color/black"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="Hello Bhai Log Aj hum Sikhenge Android"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter Name"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="280dp"
+        android:layout_height="208dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="272dp"
+        tools:srcCompat="@mipmap/cat1723627191" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="@color/cardview_dark_background"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="564dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
